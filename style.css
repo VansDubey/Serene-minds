@@ -1,0 +1,189 @@
+*{
+    margin:3px;
+    padding:0px;
+    font-family: "Gill Sans", sans-serif;
+    
+}
+
+/* 
+
+.pages{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+} */
+
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.nav2{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 62px;
+    font-size: 19px;
+
+}
+
+.nav2 :hover{
+    border-radius: 8px;
+    background-color: #e7e4e4;
+    padding: 7px;
+    cursor:pointer;
+}
+
+.nav2 button :hover{
+    border-radius: 8px;
+    background-color: #e7e4e4;
+    padding: 10px;
+    cursor:pointer;
+
+}
+
+
+.navbar button{
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    padding: 11px;
+    font-size: 14px;
+    border:none;
+    cursor:pointer;
+}
+.content1,.content2,.content3{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:28px;
+    margin-top:220px;
+    margin-bottom:210px;
+   
+
+
+}
+.content2{
+    
+    background-color: #dddbdb;
+    padding:70px;
+}
+
+ul{
+    display:flex;
+    flex-direction:column;
+    margin-left: 36px;
+    margin-top: 37px;
+    font-size: 17px;
+    margin-left: -530px;
+}
+
+li p{
+    color:grey;
+}
+.content1 button{
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    padding: 15px;
+    font-size: 14px;
+    border:none;
+    cursor:pointer;
+
+}
+
+.content1 button:hover{
+    border-radius: 8px;
+    background-color: #9c9c9c;
+    padding: 10px;
+    cursor:pointer;
+
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    
+}
+.div1,.div2{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap:40px;
+}
+
+
+.card-list1,.card-list2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:85px;
+    margin-left:115px;
+
+
+}
+
+.inner-text{
+    text-align:center;
+    color:grey;
+    font-size:31px;
+
+}
+
+.outer-text{
+    text-align:center;
+    font-size:63px;
+
+}
+
+.div1-content :first-child{
+    font-weight: bold;
+}
+
+.content3{
+    gap:35px;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    
+
+}
+
+ul li{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+
+}
+
+.list{
+    margin-left: 156px;
+    
+    margin-top: 54px;
+    
+
+}
+
+li p{
+    font-size: 18px;
+}
+
+.card:hover{
+    background-color: #c7c7c7;
+    padding: 0.125px;
+    border-radius: 10px;
+}
+
